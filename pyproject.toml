@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "botcontroller"
+version = "0.0.1"
+description = "bot controller for pc and linux"
+authors = ["ThePigeonKing"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11 <=3.13"
+psutil = "^5.9.8"
+python-dotenv = "^1.0.1"
+aiogram = "^3.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
